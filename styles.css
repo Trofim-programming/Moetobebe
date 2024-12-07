@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.header {
+    background-color: #ffe3be;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start; /* Выровнять содержимое по левому краю */
+    align-items: flex-start; /* Выровнять содержимое по верхнему краю */
+    flex-direction: column; /* Разместить элементы в столбик */
+    position: relative; /* Позволяет точно позиционировать .nav внутри */
+}
+
+.nav {
+    display: flex; /* Ссылки в одну строку */
+    gap: 20px; /* Расстояние между ссылками */
+    justify-content: flex-start; /* Выровнять ссылки по левому краю */
+    align-items: center; /* Центрировать ссылки по вертикали */
+    margin: 0; /* Убираем лишние отступы */
+    padding: 0; /* Убираем лишние отступы */
+    width: auto; /* Меню не растягивается */
+    position: absolute; /* Позволяет точно позиционировать меню */
+    top: 0; /* Расположить у верхнего края */
+    right: 0; /* Расположить у правого края */
+    font-weight: 900;
+}
+
+.nav a {
+    font-size: 35px; /* Задаем размер текста для ссылок */
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline; /* Убедиться, что ссылки будут в строчку */
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Эффект при наведении */
+}
+
+.main {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    text-align: center;
+    width: 150px;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffe3be;
+    color: white;
+    position: relative;
+}
+
+.btn {
+    display: flex; /* Ссылки в одну строку */
+    gap: 20px; /* Расстояние между ссылками */
+    justify-content: flex-start; /* Выровнять ссылки по левому краю */
+    align-items: center; /* Центрировать ссылки по вертикали */
+    margin: 0; /* Убираем лишние отступы */
+    padding: 0; /* Убираем лишние отступы */
+    width: auto; /* Меню не растягивается */
+    position: absolute; /* Позволяет точно позиционировать меню */
+    font-weight: 900;
+    color: #ff8e00;
+}
+
+p {
+    display: flex; /* Ссылки в одну строку */
+    gap: 20px; /* Расстояние между ссылками */
+    justify-content: flex-start; /* Выровнять ссылки по левому краю */
+    align-items: center; /* Центрировать ссылки по вертикали */
+    margin: 0; /* Убираем лишние отступы */
+    padding: 0; /* Убираем лишние отступы */
+    width: auto; /* Меню не растягивается */
+    font-weight: 900;
+    color: #000000;
+}
+
+
+.header-clok {
+    background-color: #ffe3be;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start; /* Выровнять содержимое по левому краю */
+    align-items: flex-start; /* Выровнять содержимое по верхнему краю */
+    flex-direction: column; /* Разместить элементы в столбик */
+    position: relative; /* Позволяет точно позиционировать .nav внутри */
+    font-size: 30px;
+
+}
+
+.footer {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    position: absolute;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+
+}
