@@ -29,6 +29,10 @@ body {
     top: 0; /* Расположить у верхнего края */
     right: 0; /* Расположить у правого края */
     font-weight: 300;
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Занимает всю ширину контейнера */
+    margin-bottom: 20px; 
 }
 
 .nav a {
@@ -37,6 +41,10 @@ body {
     text-decoration: none;
     cursor: pointer;
     display: inline; /* Убедиться, что ссылки будут в строчку */
+    max-width: 100%;
+    height: auto;
+    width: 100%; /* Занимает всю ширину контейнера */
+    margin-bottom: 20px; 
 }
 
 .nav a:hover {
