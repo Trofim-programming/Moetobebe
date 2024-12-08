@@ -28,11 +28,11 @@ body {
     position: absolute; /* Позволяет точно позиционировать меню */
     top: 0; /* Расположить у верхнего края */
     right: 0; /* Расположить у правого края */
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .nav a {
-    font-size: 29px; /* Задаем размер текста для ссылок */
+    font-size: 10px; /* Задаем размер текста для ссылок */
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
